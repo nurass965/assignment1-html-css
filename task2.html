@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - Webpage Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Task 1: Intro</a>
+    <a href="task2.html" class="active">Task 2: Layout</a>
+    <a href="task3.html">Task 3: Tribute Page</a>
+    <a href="task4.html">Task 4: Table & Form</a>
+</nav>
+
+<div class="layout-wrapper">
+    <header class="header">
+        <h1>Task 2: Webpage Layout (Floats & Positioning)</h1>
+    </header>
+
+    <div class="main-layout clearfix">
+        <aside class="sidebar">
+            <h3>Sidebar Menu</h3>
+            <ul>
+                <li><a href="index.html">Task 1 Overview</a></li>
+                <li><a href="task3.html">Tribute Page</a></li>
+                <li><a href="task4.html">Grades & Form</a></li>
+            </ul>
+        </aside>
+
+        <main class="content-area">
+            <h2>Main Content Section</h2>
+            <p>This layout is constructed without using CSS Flexbox or CSS Grid. Instead, it utilizes traditional CSS <code>float: left</code> for the sidebar and <code>float: right</code> for the content area, combined with a clearfix container.</p>
+            <p>It fulfills all structural requirements including a header, left menu sidebar, main aside content, and a clear footer at the bottom.</p>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Nurassyl Serik (Group SE-2525). All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
