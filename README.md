@@ -12,6 +12,5 @@ This repository contains the completed individual Tasks 1 through 4 for Assignme
 - **Task 2: Simple Webpage Layout** - Structural layout implemented strictly using CSS `float` properties and clearing techniques without relying on Flexbox or Grid.
 - **Task 3: Tribute Page** - Dedicated tribute page for Alan Turing, using custom Google Fonts (`Merriweather` & `Roboto`), structured biographical lists, and custom button links.
 - **Task 4: CSS Table and Form** - Custom styled academic grade table (utilizing `rowspan`, `nth-child` row striping, and class highlights) and a fully formatted student feedback form.
-
 ## Published Link
-Access the live webpage here: [https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/](https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/)
+Access the live webpage here: [https://nurass965.github.io/assignment1-html-css/](https://nurass965.github.io/assignment1-html-css/)
