@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Table & Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Task 1: Intro</a>
+    <a href="task2.html">Task 2: Layout</a>
+    <a href="task3.html">Task 3: Tribute Page</a>
+    <a href="task4.html" class="active">Task 4: Table & Form</a>
+</nav>
+
+<div class="container">
+    <h2 id="table-title">Student Academic Performance</h2>
+    <table class="styled-table">
+        <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">Nurassyl Serik (SE-2525)</td>
+            <td>Web Development</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Database Management Systems</td>
+            <td>A-</td>
+        </tr>
+        <tr class="highlight-row">
+            <td>John Doe</td>
+            <td>Algorithms & Data Structures</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>Object-Oriented Programming</td>
+            <td>B+</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2 id="form-title">Student Feedback Form</h2>
+    <form class="styled-form" action="#" method="get">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+            <label for="role">Role:</label>
+            <select id="role" name="role">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Would you recommend this course?</label>
+            <div class="radio-group">
+                <input type="radio" id="yes" name="recommend" value="Yes" checked>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="recommend" value="No">
+                <label for="no">No</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="comments">Comments & Suggestions:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Feedback</button>
+    </form>
+</div>
+
+</body>
+</html>

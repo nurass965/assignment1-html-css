@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2 - Grid Layout</title>
+    <link rel="stylesheet" href="flex-grid.css">
+    <style>
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            gap: 10px;
+            background: white;
+            padding: 10px;
+        }
+
+        .header { grid-area: header; background: #ddd; padding: 20px; }
+        .sidebar { grid-area: sidebar; background: #eee; padding: 20px; }
+        .main { grid-area: main; background: #fafafa; padding: 20px; }
+        .footer { grid-area: footer; background: #ddd; padding: 10px; text-align: center; }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">My Project</div>
+    <ul class="nav-links">
+        <li><a href="flex-cards.html">Task 1</a></li>
+        <li><a href="grid-layout.html">Task 2</a></li>
+        <li><a href="gallery.html">Task 3</a></li>
+        <li><a href="portfolio.html">Task 4</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <h1>Task 2: Grid Layout</h1>
+    <div class="grid-layout">
+        <div class="header"><h2>Header</h2></div>
+        <div class="sidebar"><p>Sidebar Menu</p></div>
+        <div class="main"><p>Main Content Area</p></div>
+        <div class="footer"><p>Footer</p></div>
+    </div>
+</div>
+
+</body>
+</html>
